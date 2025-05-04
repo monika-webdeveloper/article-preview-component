@@ -6,14 +6,13 @@ import Content from "./components/Content";
 function App() {
   return (
     <Wrapper className='card' role='content'>
-      <LeftSide />
-      <Content />
+      <LeftSide role='image' />
+      <Content role='main-content' />
     </Wrapper>
   );
 }
 
 const Wrapper = styled.article`
-  margin-top: -5rem;
   width: 32.7rem;
   height: 53.8rem;
   background-color: var(--color-white);
