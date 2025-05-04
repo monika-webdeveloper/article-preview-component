@@ -19,7 +19,7 @@ const FooterMobile = () => {
   if (isFooterDark === true) {
     return (
       <Wrapper>
-        <div className='footer-mobile-dark'>
+        <div className='footer-mobile-dark' role='footer-modal'>
           <div className='footer-mobile-dark__title-and-icon'>
             <p>share</p>
             <div className='footer-mobile-dark__icons-container'>
@@ -37,7 +37,7 @@ const FooterMobile = () => {
   }
   return (
     <Wrapper>
-      <div className='footer-mobile'>
+      <div className='footer-mobile' role='footer-mobile'>
         <figcaption className='footer-mobile__profile'>
           <img src={avatar} alt='michelle' />
           <div className='footer-mobile__name-and-date'>

@@ -6,7 +6,7 @@ import pinterest from "../assets/icon-pinterest.svg";
 const Modal = () => {
   return (
     <Wrapper>
-      <div className='modal-tablet'>
+      <div className='modal-tablet' role='modal'>
         <div className='title-and-icon'>
           <p>share</p>
           <div className='icons-container'>

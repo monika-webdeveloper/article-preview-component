@@ -13,6 +13,7 @@ function App() {
 }
 
 const Wrapper = styled.article`
+  margin-top: -7rem;
   width: 32.7rem;
   height: 53.8rem;
   background-color: var(--color-white);
