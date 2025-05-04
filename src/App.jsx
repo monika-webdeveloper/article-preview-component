@@ -5,7 +5,7 @@ import Content from "./components/Content";
 
 function App() {
   return (
-    <Wrapper className='card'>
+    <Wrapper className='card' role='main'>
       <LeftSide />
       <Content />
     </Wrapper>
