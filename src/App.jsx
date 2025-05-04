@@ -5,7 +5,7 @@ import Content from "./components/Content";
 
 function App() {
   return (
-    <Wrapper className='card' role='main'>
+    <Wrapper className='card' role='content'>
       <LeftSide />
       <Content />
     </Wrapper>
@@ -13,7 +13,7 @@ function App() {
 }
 
 const Wrapper = styled.article`
-  margin-top: -7rem;
+  margin-top: -5rem;
   width: 32.7rem;
   height: 53.8rem;
   background-color: var(--color-white);
