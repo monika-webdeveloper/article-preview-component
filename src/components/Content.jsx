@@ -6,7 +6,7 @@ import FooterDesktop from "./FooterDesktop";
 const Content = () => {
   return (
     <Wrapper>
-      <div className='text-block'>
+      <div className='text-block' role='content info'>
         <h1>
           Shift the overall look and feel by adding these wonderful touches to
           furniture in your home

@@ -12,7 +12,7 @@ const FooterDesktop = () => {
 
   return (
     <Wrapper>
-      <div className='footer-tablet'>
+      <div className='footer-tablet' role='footer'>
         <figcaption className='footer-tablet__profile'>
           <img src={avatar} alt='' />
           <div className='footer-tablet__name-and-date'>

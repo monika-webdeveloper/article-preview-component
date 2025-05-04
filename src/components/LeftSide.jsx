@@ -4,7 +4,7 @@ import drawersImg from "../assets/drawers.jpg";
 const LeftSide = () => {
   return (
     <Wrapper>
-      <figure className='bitmap-container'>
+      <figure className='bitmap-container' role='content image'>
         <img src={drawersImg} alt='drawers picture' />
       </figure>
     </Wrapper>
